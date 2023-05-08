@@ -340,15 +340,12 @@ header {
 }
 
 #experience {
-    max-width: 1000px;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);  
 }
 
 #experience h2 {
     margin-bottom: 40px;
-}
-
-#experience div {
-    margin-bottom: 50px;
 }
 
 .portfolio {
@@ -357,11 +354,6 @@ header {
     gap: 40px 20px;
     justify-content: center;
     justify-items: center;
-}
-
-.projects {
-    background-color: var(--clr-dark);
-    color: var(--clr-light);  
 }
 
 .project-item {
