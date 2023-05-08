@@ -265,82 +265,9 @@ header {
     }
 }
 
-.portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 40px 20px;
-    justify-content: center;
-    justify-items: center;
-}
-
-
-.projects {
+.about {
     background-color: var(--clr-dark);
     color: var(--clr-light);  
-}
-
-.project-item {
-    height: 240px;
-    width: 320px;
-    background-color: #16e0bd;
-    padding: 28px;
-    border-radius: 10px;
-    position: relative;
-}
-
-.project-item a button {
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-}
-
-.project-item .project-description {
-    font-size: 16px;
-}
-
-.flowline {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 6px;
-    width: 0px;
-    background-color: white;
-    transition: ease-in;
-    transition-duration: 200ms;
-}
-
-.project-item:hover{
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    
-    .flowline {
-        width: 100%;
-    }
-
-    .project-link {
-        transform: scale(1.1);
-    }
-}
-
-.project-item .project-link {
-    display: block;
-    width: max-content;
-    font-size: 16px;
-    position: absolute;
-    bottom: 20px;
-}
-
-.project-item .project-link button {
-    display: flex;
-}
-
-.project-item .arrow-up {
-    rotate: 45deg;
-    margin-right: 8px;
 }
 
 .imageHive {
@@ -414,7 +341,6 @@ header {
 
 #experience {
     max-width: 1000px;
-    margin: 0 auto;
 }
 
 #experience h2 {
@@ -423,6 +349,83 @@ header {
 
 #experience div {
     margin-bottom: 50px;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.projects {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);  
+}
+
+.project-item {
+    height: 240px;
+    width: 320px;
+    background-color: #16e0bd;
+    padding: 28px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.project-item a button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.project-item .project-description {
+    font-size: 16px;
+}
+
+.flowline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 6px;
+    width: 0px;
+    background-color: white;
+    transition: ease-in;
+    transition-duration: 200ms;
+}
+
+.project-item:hover{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+    .flowline {
+        width: 100%;
+    }
+
+    .project-link {
+        transform: scale(1.1);
+    }
+}
+
+.project-item .project-link {
+    display: block;
+    width: max-content;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.project-item .project-link button {
+    display: flex;
+}
+
+.project-item .arrow-up {
+    rotate: 45deg;
+    margin-right: 8px;
 }
 
 .footer {
